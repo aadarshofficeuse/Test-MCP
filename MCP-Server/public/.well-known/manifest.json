@@ -1,0 +1,34 @@
+{
+  "name": "TaskManagerMCP",
+  "version": "1.0.0",
+  "protocol": "1.0",
+  "description": "MCP server exposing Task Manager REST API hosted on Render.",
+  "endpoints": {
+    "mcp": "https://your-mcp-server.onrender.com/mcp"
+  },
+  "tools": [
+    {
+      "name": "list_tasks",
+      "description": "Fetch all tasks from the Task Manager API"
+    },
+    {
+      "name": "create_task",
+      "description": "Create a new task via the Task Manager API"
+    },
+    {
+      "name": "get_task",
+      "description": "Fetch a single task by its ID"
+    },
+    {
+      "name": "delete_task",
+      "description": "Delete a task by ID"
+    }
+  ],
+  "capabilities": {
+    "tools": true
+  },
+  "contact": {
+    "website": "https://test-mcp-k7qs.onrender.com",
+    "support": "support@test-mcp-k7qs.onrender.com"
+  }
+}
